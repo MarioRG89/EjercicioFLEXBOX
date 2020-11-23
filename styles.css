@@ -1,10 +1,8 @@
 
-
 #container {
     max-width: 80%;
     min-width: 50%;
     margin: auto;
-    overflow: hidden;
 }
 
 header {
@@ -19,17 +17,16 @@ header {
 
 aside {
     display: flex;
-    flex-basis: 20%;
-    margin-right: 5px;
-    margin-bottom: 5px;
+    flex-basis: 10%;
+    margin:5px;
     padding: 5px;
 }
 
 main {
     display: flex;
     width: 100%;
-    text-align: center;
-    
+    text-align: center;   
+    justify-content: space-around;
 }
 
 footer {
@@ -56,11 +53,10 @@ section {
     justify-content: space-between;
 }
 
-#divAside{
+#divAsiders{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    overflow: hidden;
 }
 
 /*Pantalla grande*/
@@ -70,14 +66,12 @@ section {
         flex-direction: row;
         justify-content: space-between;
     }
-
-    #divAside {
+    #divAsiders {
         display: flex;
         overflow: hidden;
         flex-direction: column;
         order: -1;
     }
-
     main {
         display: flex;
         flex-direction: row;
